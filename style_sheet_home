@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+      box-sizing: border-box;}
+    
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;}
+ 
+ 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all ease .65s;
+    z-index: 100;
+    width: 100%;}
+    
+  
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;}
+    
+li {
+    display: inline-block;
+    margin-right: 15px;}
+    
+
+nav.scroll {
+    padding: 10px;
+    background: gray;
+    position: fixed;}
+    
+
+nav.scroll li {
+    color: white;}
+
+a:link {
+    color: gray;}     
+
+a:hover {
+    color: white;}     /* mouse over link */
+
+a:active {
+    color: white;}    /* selected link */
+
+.nav_bar_current {
+    color: white;
+    text-decoration: none;
+}
+.nav_bar {
+    color: gray;
+    text-decoration: none;
+}
+
+
+.background_nav_bar {
+    background-color: #333335;
+}
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.281);
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;}
+
+
+.overlay h1 {
+    font-size: 65px;
+    letter-spacing: 2px;
+    margin: 0 0 5px;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+.overlay p {
+    margin: 0;
+    font-size: 20px;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+
+  
+.background_home2 {
+    height: 120vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('https://i.imgur.com/8rmxIel.jpg');
+  }
+
+.background_home3 {
+    height: 120vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('https://i.imgur.com/NEOlmll.jpg');
+  }
+
+.background_home4 {
+    height: 120vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('https://i.imgur.com/Srz7voZ.jpg');
+  }
+  
+  .background_home6 {
+    height: 120vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('https://i.imgur.com/5QFbkI1.jpg');
+  }
+  
