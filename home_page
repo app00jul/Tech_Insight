@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TECH INSIGHT</title>
+
+    <link href="style_sheet_home.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="background_nav_bar">
+    <nav>
+        <a href="home_page.html" class="nav_bar_current"> #insert logo here | TECH INSIGHT </a>
+    
+        <ul>
+            <li><a href="all_produc.html" class="nav_bar"> All product </a></li>
+            <li><a href="laptop.html" class="nav_bar"> Laptop </a></li>
+            <li><a href="phone.html" class="nav_bar"> Phone </a></li>
+            <li><a href="tablet.html" class="nav_bar"> Tablet </a></li>
+            <li><a href="about_us.html" class="nav_bar"> About us </a></li>
+        </ul>
+    </nav>
+    </div>
+
+
+
+    <div class="background_home2">
+        <div class="overlay">
+            <center>
+            <p>You're a</p>
+            <h1>ENTREPRENEUR</h1>
+            </center>
+        </div>
+    </div>
+
+    <div class="background_home3">
+        <div class="overlay">
+            <center>
+            <p>You're a</p>
+            <h1>GAMER</h1>
+            </center>
+        </div>
+    </div>
+
+    <div class="background_home4">
+        <div class="overlay">
+            <center>
+            <p>You're a</p>
+            <h1>STUDENT</h1>
+            </center>
+        </div>
+    </div>
+
+    <div class="background_home6">
+        <div class="overlay">
+            <center>
+            <p>You're an</p>
+            <h1>ARTIST</h1>
+            </center>
+        </div>
+    </div>
+</body>
