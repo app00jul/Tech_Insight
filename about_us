@@ -3,7 +3,7 @@
 <head>
     <title>About Us</title>
 
-    <link href="style_sheet.css" rel="stylesheet">
+    <link href="style_sheet_about_us.css" rel="stylesheet">
 
     <style>            
         .overlay {
