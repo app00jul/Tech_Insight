@@ -56,10 +56,13 @@ a:active {
     text-decoration: none;
 }
 
-
 .background_nav_bar {
     background-color: #333335;
+    position: sticky;
+  top: 0px;
+    
 }
+
 .overlay {
     position: absolute;
     height: 100%;
@@ -92,8 +95,15 @@ a:active {
     transform: translate(-50%);
   }
 
+.background_home1 {
+    height: 120vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('');
+}
 
-  
 .background_home2 {
     height: 120vh;
     width: 100vw;
@@ -121,7 +131,7 @@ a:active {
     background-image: url('https://i.imgur.com/Srz7voZ.jpg');
   }
   
-  .background_home6 {
+.background_home6 {
     height: 120vh;
     width: 100vw;
     position: relative;
@@ -130,3 +140,12 @@ a:active {
     background-image: url('https://i.imgur.com/5QFbkI1.jpg');
   }
   
+
+.background_home7 {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('https://i.imgur.com/ZdfgHCO.jpg');
+  }
