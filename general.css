@@ -1,3 +1,8 @@
+/*
+*Team name: Tech Insight
+Members: Alisha Patel, Haig Emirzian, Nicholas Chapman, Julian Noeske
+Pledge: I pledge my honor that I have adided by the Stevens Honor System.
+*/
 /* Body */
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
@@ -69,4 +74,44 @@ footer {
     color: white;
     text-align: center;
     padding: 30px;
+}
+
+/* Liquid layout */
+@media screen and (min-width: 992px){
+    .product-items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .product-col-r-bottom{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width: 1200px){
+    .product-items{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .product{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .products .text-light{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1336px){
+    .product-items{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .product-collection-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .flex{
+        height: 60vh;
+    }
+    .product-col-left{
+        height: 121.5vh;
+    }
 }
