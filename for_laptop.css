@@ -39,3 +39,6 @@
     background-image: url('https://i.imgur.com/jLWLUo2.jpg');
 }
 
+.more a{
+    text-decoration: none;
+}
