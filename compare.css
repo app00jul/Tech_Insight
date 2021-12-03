@@ -1,0 +1,79 @@
+body { font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height:1.5; }
+
+.more {
+    color: #2d6a4f; 
+    font-size: 18px;
+}
+
+.ProdId{
+    display: none;
+}
+
+.box {
+    width: 150px;
+    height: 25px; 
+    background:#95d5b2;
+    cursor:pointer;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box a {
+   display:inline-block;
+   width:20px;
+   height:20px;
+   color:#fff;
+   text-decoration:none;
+}
+.hidden{
+    display:none;
+}
+
+.pop_up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    transition: all ease .65s;
+    z-index: 100;
+    margin-bottom: 5px;
+    flex-direction: column;
+    background-color: #9AA5B1;
+    width: 100%;
+    height: 250px;
+    max-width: 100%;
+}
+
+
+#compare_header{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+a.compare_button{
+    text-decoration: none;
+}
+
+.compare_button{
+    background-color: #36b37e;
+    font-size: 15px;
+    color: black;
+    padding: 8px 20px;
+    border-radius: 25px;
+    margin: 5px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop_up_body{
+    display: flex;
+    margin-bottom: 5px;
+    padding: 10px;
+}
