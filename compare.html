@@ -41,17 +41,14 @@
     </div>
 
     <div class="compare">
-        <div class="classes">
-            <div class="class" id="Laptop">
-                <input type="checkbox" id="Laptop_checkbox"> Laptop
-            </div>
-            <div class="class" id="Phone">
-                <input type="checkbox" id="Phone_checkbox"> Phone
-            </div>
-            <div class="class" id="Tablet">
-                <input type="checkbox" id="Tablet_checkbox"> Tablet
-            </div>
-        </div>
+        <select id="select_devices" name="devices">
+            <option value="Please select"></option>
+            <option value="Laptop">Laptop</option>
+            <option value="Phone">Phone</option>
+            <option value="Tablet">Tablet</option>
+        </select>
+    
+        <input type="submit" id="submit" value="Submit" />
 
         <div class="table">
             <div class="days">
