@@ -37,3 +37,36 @@
     background-image: url('https://i.imgur.com/jLWLUo2.jpg');
 }
 
+/*for compare page*/
+.corner{
+    width: 50px;
+}
+
+.pictures{
+    width: 100px;
+}
+
+.info{
+    height: 200px;
+    width: 100px;
+}
+
+.product_name{
+    height: 50px;
+    width: 100px;
+}
+
+.product_name_first{
+    width: 50px;
+    height: 50px;
+}
+
+img{
+    width: 103.5px;
+    height: 50px;
+}
+
+.info_first{
+    width: 50px;
+    height: 200px;
+}
